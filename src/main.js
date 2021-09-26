@@ -1,4 +1,11 @@
-const { createApp } = require('vue');
-import App from "./App.vue";
+import Vue from 'vue';
+import App from './App.vue';
+import VueMaterial from 'vue-material';
 
-createApp(App).mount("#app");
+Vue.use(VueMaterial);
+
+new Vue({
+  el: '#app',
+  components: { App },
+  template: '<App/>',
+});
