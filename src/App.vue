@@ -3,13 +3,11 @@
   <div id="app">
     <img alt="Vue logo" src="https://vuejs.org/images/logo.png" />
 
-    <HelloWorld msg="HelloWorld  Component" />
     <p>{{ count }}</p>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue';
 import Navbar from './components/Navbar.vue';
 
 export default {
@@ -20,7 +18,6 @@ export default {
   },
   name: 'App',
   components: {
-    HelloWorld,
     Navbar,
   },
 };

@@ -49,5 +49,6 @@ h1 {
   justify-content: center;
 
   background: teal;
+  box-shadow: 0 0 15px black;
 }
 </style>
